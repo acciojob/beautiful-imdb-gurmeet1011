@@ -1,2 +1,35 @@
 
 /* Your CSS Code here. */
+ body {
+            background-color: #f0f0f0; /* Light gray background */
+            margin: 0; /* Remove default margin */
+            padding: 20px; /* Padding for the body */
+            display: flex; /* Flexbox for centering content */
+            flex-direction: column; /* Stack elements vertically */
+            align-items: center; /* Center items horizontally */
+        }
+
+        /* Style for the movie poster */
+        .moviePic {
+            height: 400px; /* Set height for the poster */
+            width: auto; /* Auto width to maintain aspect ratio */
+            opacity: 0.9; /* Slightly transparent */
+            border-radius: 10px; /* Rounded corners for the image */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+            margin-bottom: 20px; /* Space below the image */
+        }
+
+        /* Style for the movie description */
+        .movieDetail {
+            position: relative; /* Positioning for centering */
+            top: 0; /* Align to the top */
+            width: 80%; /* Set width for the description */
+            text-align: center; /* Center align the text */
+            font-size: 18px; /* Font size for the description */
+            color: #333; /* Dark gray text color */
+            line-height: 1.5; /* Space between lines */
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+            padding: 20px; /* Padding inside the description */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+        }
